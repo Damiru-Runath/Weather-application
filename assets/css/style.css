@@ -74,3 +74,36 @@ body{
     margin-top: -65px;
     margin-bottom: 35px;
 }
+
+.w13{
+    margin-left: 500px;
+    margin-top: -680px;
+
+}
+
+.w14{
+    background-color: #ffffff;
+    padding-left: 20pX;
+    margin-right: 700px;
+    padding-right: 20px;
+}
+
+.w15{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.w16{
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 1px;
+}
+
+.w17{
+    display: flex;
+    margin-top: 60px;
+    
+}
+
+
