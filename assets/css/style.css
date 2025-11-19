@@ -112,12 +112,22 @@ body{
 }
 
 .w19{
-    background-color: #ffffff;
-    margin-right: 80%;
-    padding-left: 2.3%;
+    width: 30px;
+    height: 30px;
 }
 
 .w20{
-    margin-top: -30px;
-    margin-left: 35px;
+    margin-top: 8%;
+    display:flex ;
+    gap: 10%;
+
+}
+
+.w21{
+    display: inline;
+    
+}
+
+.w22{
+    margin-top: 15%;
 }
