@@ -8,38 +8,40 @@
 </head>
 <body>
 
+    
+
    <div class="w1">
     <div class="w4">
-        <input type="text" placeholder="   Search of place..." style="color: #79716B; border-radius: 20px;"  >
+        <input type="text" placeholder="   Search of place..." style="color: #79716B; border-radius: 20px;" id="txt_city" >
         <button class="w2">Search</button>
     </div>
 
     <div>
-        <img src="assets/img/cloudy_1163657.png" width="200px" height="200px" class="w5">
+        <img src="assets/img/cloudy_1163657.png" width="200px" height="200px" class="w5" id="img">
     </div>
 
-    <p class="w6">12</p>
+    <p class="w6" id="temp">12</p>
     <p class="w7">°C</p>
 
     <div class="w9">
-        <p>Monday</p>
-        <p class="w8">16.00</p>
+        <p id="time">2025-11-22 18:20</p>
+        
     </div>
 
     <div class="w10">
         <img src="assets/img/cloudy-day.png" width="30px" height="30px">
-        <p>Mostly Cloudy</p>
+        <p id="mo">Mostly Cloudy</p>
     </div>
 
      <div class="w10" >
         <img src="assets/img/rainy.png" width="30px" height="30px">
         <p>Rain </p>
-        <p>30%</p>
+        <p id="ran">30%</p>
     </div>
 
     <div>
         <img src="assets/img/pexels-thilina-alagiyawanna-3266092-20660941.jpg" class="w11">
-        <p class="w12">Sri Lanka - Colombo</p>
+        <p class="w12" id="lo">Colombo</p>
     </div>
 
     
@@ -120,7 +122,7 @@
                  <div class="card-body">
                     <img src="assets/img/wind.png" class="w19 w21">
                     <h5 class="card-title w21" style="margin-left: 6%;">Wind Speed</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary text-center w22" >7 Km/h</h6>
+                    <h6 class="card-subtitle mb-2 text-body-secondary text-center w22" id="windSpeed" >7 Km/h</h6>
                     
                 </div>
             </div>
@@ -131,7 +133,7 @@
                  <div class="card-body">
                     <img src="assets/img/humidity.png" class="w19 w21">
                     <h5 class="card-title w21" style="margin-left: 6%;">Humidity</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary text-center w22" >37%</h6>
+                    <h6 class="card-subtitle mb-2 text-body-secondary text-center w22" id="humidity" >37%</h6>
                     
                 </div>
             </div>
@@ -142,7 +144,7 @@
                  <div class="card-body">
                     <img src="assets/img/cloud.png" class="w19 w21">
                     <h5 class="card-title w21" style="margin-left: 6%;">Cloud Cover</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary text-center w22" >67%</h6>
+                    <h6 class="card-subtitle mb-2 text-body-secondary text-center w22" id="cloud">67%</h6>
                     
                 </div>
             </div>
@@ -165,7 +167,7 @@
                  <div class="card-body">
                     <img src="assets/img/uv-index.png" class="w19 w21">
                     <h5 class="card-title w21" style="margin-left: 6%;">UV Index</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary text-center w22" >0</h6>
+                    <h6 class="card-subtitle mb-2 text-body-secondary text-center w22" id="uv">0</h6>
                     
                 </div>
             </div>
@@ -176,7 +178,7 @@
                  <div class="card-body">
                     <img src="assets/img/gauge.png" class="w19 w21">
                     <h5 class="card-title w21" style="margin-left: 6%;">Pressure</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary text-center w22" >100 hpa</h6>
+                    <h6 class="card-subtitle mb-2 text-body-secondary text-center w22" id="pressure" >100 hpa</h6>
                     
                 </div>
             </div>
@@ -187,7 +189,7 @@
                  <div class="card-body">
                     <img src="assets/img/visibility.png" class="w19 w21">
                     <h5 class="card-title w21" style="margin-left: 6%;">Visibility</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary text-center w22" >10 Km</h6>
+                    <h6 class="card-subtitle mb-2 text-body-secondary text-center w22" id="visibility" >10 Km</h6>
                     
                 </div>
             </div>

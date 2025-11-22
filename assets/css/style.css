@@ -1,5 +1,5 @@
 body{
-    background-color: #E7E5E4;
+    background-color: #e7e5e481;
     
 }
 
@@ -37,7 +37,7 @@ body{
 
 .w7{
     font-size: 30px;
-    margin-left: 90px;
+    margin-left: 35%;
     margin-top: -100px;
 }
 
@@ -71,8 +71,10 @@ body{
 .w12{
     color: #ffffff;
     text-align: center;
-    margin-top: -65px;
+    margin-top: -75px;
     margin-bottom: 35px;
+    font-size: 200%;
+    font-style:oblique;
 }
 
 .w13{
